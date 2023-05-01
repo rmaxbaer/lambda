@@ -14,8 +14,6 @@ jobs:
     steps:
       - name: checkout source code
         uses: actions/checkout@v1
-      - name: default deploy
-        uses: appleboy/lambda-action@master
       - name: zip
         uses: montudor/action-zip@v0.1.0
         with:
